@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Local and Global Variable</title>
+    <script language="javascript" type="text/javascript" >
+        var var1="Thanks";
+        var var2="Bye";
+        function Message(who)
+        {
+            var name2="Hello";
+            alert("Here 'var1' and var 'var2' are the global who is a local variable.... "+who);
+
+        }
+    </script>
+</head>
+<body>
+    <center><h2>
+        Local and Global variables Example
+    </h2>
+    <p>prepare to display alert box.</p>
+    <button type="button" onclick="Message(var1)" >click me</button>
+    <button type="button" onclick="Message(var2)" >click me</button>
+
+    </center>
+</body>
+</html>

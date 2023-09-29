@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title> Fahrenheit Example</title>
+</head>
+
+<body>
+    <form action="#" name=temp>
+        <center>
+            <h3><u>Celsius converted into Fahrenheit </u></h3> 
+            Enter Celsius <input type=text name="cels" size=4> <br>
+            <input type=button value="Convert to Fahrenheit"
+                onclick="document.temp.fahr.value = document.temp.cels.value + 
+                ' degrees Celsius' + '\n' +'is ' +((document.temp.cels.value * 9/5)+32) +' degrees Fahrenheit'">
+            <br><br> <textarea name=fahr cols=28 rows=2> </textarea>
+        </center>
+    </form>
+</body>
+
+</html>

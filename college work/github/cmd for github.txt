@@ -1,0 +1,12 @@
+install the setup
+touch .gitignore #ignore big file for not upload on github
+git config --global user.name "Mohan Manjhi"
+git config --global user.emial "your_email@gmail.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status #check status
+ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com"
+cat <path to id_rsa.pub> # Add this key to your github account
+git remote add origin <ssh url.git>
+git push origin master #upload files on github
