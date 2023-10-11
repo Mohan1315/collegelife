@@ -1,0 +1,12 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}
+[remember picture, overlay] \draw[line width=1pt] ($(current page.north west)+(0.5in, -0.5in)$) rectangle  ($(current page.south east)+(-0.5in, 0.5in)$);
+[remember picture, overlay] \draw[line width=1pt] ($(current page.north west)+(4.3in, -0.5in)$) rectangle  ($(current page.south east)+(-0.5in, 0.5in)$);
+\end{tikzpicture}
+$\fbox{.                                       . }$
+
+\end{document}
