@@ -1,7 +1,7 @@
 import java.util.*;
 public class Constructor{
 	
-	double width,height,depth;
+	float width,height,depth;
 	
 	Constructor (int width, int height, int depth){
 		this.width = width;
@@ -9,8 +9,11 @@ public class Constructor{
 		this.depth = depth;
 	}
 	
-	public double volume(){
+	public float volume(){
+	
 		return width*height*depth;
+		
+		
 	}
 	
 	public static void main(String args[]){
@@ -20,7 +23,17 @@ public class Constructor{
 		int depth = sc.nextInt();
 		
 		Constructor obj = new Constructor(width,height,depth);
-		System.out.println(obj.volume());
+		float vol = obj.volume();
+		int vol2 = (int)vol;
+		if(vol > 10){
+			//float vol1 = vol;
+			System.out.println(vol);
+		}
+		else{
+			System.out.println(vol2);
+		}
+		
+		
 
 	}
 }
