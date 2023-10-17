@@ -1,4 +1,5 @@
-\documentclass{article}
+\documentclass[10pt]{article}
+\usepackage{microtype}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{blindtext}
 \usepackage{geometry}
@@ -29,7 +30,8 @@ and 4 carry \textbf{10 marks} each. There is \textbf{NO} negative marking}}
 %and 4 carry 10 marks each. There is NO negative marking.
 %\end{center}
 Q.1. This section contains \textbf{15 multiple choice questions}. Each question has four options, out of which
-ONLY ONE is correct. Mark the correct option with a tick
+ONLY \\
+\hspace*{5ex}ONE is correct. Mark the correct option with a tick
  \\ \begin{flushright}
     \textbf{(5 x 2 = 10 Marks)} 
 \end{flushright}
@@ -80,5 +82,116 @@ Intangible Cultural \\
  \\ \\ \\
 \hspace*{4ex}C. Zaha Hadid   \tab D.Tadao Ando 
 \\ \\
+$$\textbf{------------------------------------------------------------------------------------------------------------------------------}$$
+%
+\begin{flushright}JEE (Advanced) 2022 \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;AAT Paper\end{flushright}
+$$\textbf{------------------------------------------------------------------------------------------------------------------------------}$$
+Q.2 Match the famous architects in column I with their renowned projects in column II. \\
+
+\textbf{( 5 x 2 = 10 Marks)}
+%
+\\ \\ 
+\hspace*{4ex}\textbf{Column I} \tab \textbf{Column II } 
+\\ \\
+\hspace*{4ex}(A) Charles Correa \tab (P) IIM Bangalore 
+ \\ \\
+\hspace*{4ex}(B) B V Doshi    \tab (Q)  Capitol Complex, Chandigarh 
+\\ \\
+\hspace*{4ex}(C) Bimal Pate \tab (R) Central Vista, New Delhi 
+ \\ \\
+\hspace*{4ex}(D)  Raj Rewal   \tab (S) Dakshina Chitra, Chennai  
+\\ \\
+\hspace*{4ex}(E)  Le Corbusier \tab (T) Bharat Bhawan, Bhopal 
+ \\ \\
+\hspace*{4ex} \tab (U) Parliament Library, New Delhi
+\\ \\
+%
+Q.3 Match the material in Column I with the craft in Column II. \\
+
+\textbf{( 5 x 2 = 10 Marks)}
+%
+\\ \\ 
+\hspace*{4ex}\textbf{Column I} \tab \textbf{Column II } 
+\\ \\
+\hspace*{4ex}(A) Stone  \tab (P) Origami 
+ \\ \\
+\hspace*{4ex}(B) Paper    \tab (Q) Embroidery 
+\\ \\
+\hspace*{4ex}(C) Glass \tab (R) Carving 
+ \\ \\
+\hspace*{4ex}(D) Fabric   \tab (S) Carpentry 
+\\ \\
+\hspace*{4ex}(E) Metal  \tab (T)  Etching 
+ \\ \\
+\hspace*{4ex} \tab (U)  Filigree \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+$$\textbf{------------------------------------------------------------------------------------------------------------------------------}$$
+\newpage
+
+\begin{flushright}JEE (Advanced) 2022 \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;AAT Paper\end{flushright}
+$$\textbf{------------------------------------------------------------------------------------------------------------------------------}$$
+Q.4 Refer to the following sketch of St. James’ Church, Delhi. Match the numbers mentioned in Column I 
+
+(highlighted in the sketch) with corresponding building elements in Column II.
+
+\textbf{( 5 x 2 = 10 Marks)}
+    
+
+\includegraphics[width=1\linewidth]{q3.jpg}
+\\ \\ \\ 
+%
+\\
+\hspace*{4ex}\textbf{Column I} \tab \textbf{Column II} 
+\\ \\
+\hspace*{4ex}(A)  i   \tab (P) Column 
+\\ \\
+\hspace*{4ex}(B)  ii    \tab (Q) Pediment 
+\\ \\
+\hspace*{4ex}(C) iii \tab (R) Plinth 
+\\ \\
+\hspace*{4ex}(D) iv   \tab (S)  Dome 
+\\ \\
+\hspace*{4ex}(E) v  \tab (T)   Architrave 
+\\ \\
+\hspace*{4ex} \tab (U) Arch
+ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+$$\textbf{------------------------------------------------------------------------------------------------------------------------------}$$
+\nextpage
+\begin{flushright}JEE (Advanced) 2022 \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;AAT Paper\end{flushright}
+$$\textbf{------------------------------------------------------------------------------------------------------------------------------}$$
+Q.5 Read the following statements and choose the correct options.\\ \\
+\hspace*{10ex}Statement A : Parapet is a type of window  \\
+\hspace*{10ex}Statement B : Pile is a type of foundation
+\\ \\
+%
+\hspace*{4ex}A. Both the statements A \& B are True \\ \\
+\hspace*{4ex}B. Both the statements A \& B are False \\ \\
+\hspace*{4ex}C. The statement A is True but statement B is False \\ \\
+\hspace*{4ex}D. The statement B is False but statement A is True \\ 
+%
+\\
+Q.6 Refer to the graphical representation of timber, shown in figure 1
+ graphical representation shown in 
+ 
+ figure 2, indicate? \\ \\
+ %
+ \\
+\hspace*{10ex}\includegraphics[width=0.40\linewidth]{q6_fig1.jpg}
+\hspace*{4ex}\includegraphics[width=0.36\linewidth]{q6_fig2.jpg} \\ \\
+\hspace*{25ex} Figure 1 \tab \hspace*{15ex} Figure 2
+ \\ 
+\\
+%
+\\
+\hspace*{4ex}A. Thermocol \tab B. Concrete 
+ \\ \\ \\
+\hspace*{4ex}C. Steel   \tab D.Brick 
+\\ \\
+Q.7 A triangular prism has equal sides of 3 units each and a length of 10 units. Calculate the surface
+
+area of the prism. \\
+
+
+    
+
 
 \end{document}
