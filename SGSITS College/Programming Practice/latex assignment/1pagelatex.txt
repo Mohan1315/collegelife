@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{blindtext}
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{tabto}
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=10mm,
+ }
+\begin{document}
+\begin{flushright}JEE (Advanced) 2022 \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;AAT Paper\end{flushright}
+$$\textbf{------------------------------------------------------------------------------------------------------------------------------}$$
+\begin{center}
+\fbox{\parbox{6.5in}{\centering
+\textbf{SECTION A: Architectural Awareness (Maximum Marks: 60)}\\
+This section contains \textbf{FOUR} questions. Question 1 carries \textbf{30 marks}, Questions 2, 3 \\
+and 4 carry \textbf{10 marks} each. There is \textbf{NO} negative marking}}
+\end{center}
+%\begin{center}\textbf{SECTION A: Architectural Awareness (Maximum Marks: 60)}
+% \\
+%This section contains FOUR questions. Question 1 carries %30 marks, Questions 2, 3 \\
+%and 4 carry 10 marks each. There is NO negative marking.
+%\end{center}
+Q.1. This section contains \textbf{15 multiple choice questions}. Each question has four options, out of which
+ONLY ONE is correct. Mark the correct option with a tick
+ \\ \begin{flushright}
+    \textbf{(5 x 2 = 10 Marks)} 
+\end{flushright}
+(i) Which of the following bridges is laid over a sea? \\ \\
+\hspace*{4ex}A. Godavari Bridge, Andhra Pradesh \\ \\
+\hspace*{4ex}B. Pamban Bridge, Tamilnadu \\ \\
+\hspace*{4ex}C. Howrah Bridge, West Bengal \\ \\
+\hspace*{4ex}D. Mahatma Gandhi Setu, Bihar \\ 
+%
+\\ \\
+(ii) In 2021, --------------------annual festivity got inscribed on the representative list of
+Intangible Cultural \\
+\hspace*{4ex}Heritage of Humanity by UNESCO. 
+\\
+%
+\\
+\hspace*{4ex}A. Makara Sankranthi \tab B. Ganesh Chaturthi \\ \\ \\
+\hspace*{4ex}C. Durga Puja \tab D.Chhath Puja 
+\\ \\
+%
+\\
+(iii) Statue of which famous personality is called ‘Statue of Unity’? 
+ \\ 
+\\
+%
+\\
+\hspace*{4ex}A. Mahatma Gandhi  \tab B. Dr. B. R. Ambedkar  
+ \\ \\ \\
+\hspace*{4ex}C. Sardar Vallabhbhai Patel   \tab D.Indira Gandhi 
+\\ \\
+%
+\\
+(iv) Which of the following historic gateways is sharing an edge with a water body? \\ 
+\\
+%
+\\
+\hspace*{4ex}A. Charminar, Hyderabad \tab B. India Gate, New Delhi \\ \\ \\
+\hspace*{4ex}C. Rumi Darwaza, Lucknow  \tab D.Gateway of India, Mumbai 
+\\ \\
+%
+\\ \\
+(v) Which architect has designed the building ‘Church of Light’, located in Japan? 
+ \\ 
+\\
+%
+\\
+\hspace*{4ex}A. Moshe Safdie \tab B. Fumihiko Maki 
+ \\ \\ \\
+\hspace*{4ex}C. Zaha Hadid   \tab D.Tadao Ando 
+\\ \\
+
+\end{document}
