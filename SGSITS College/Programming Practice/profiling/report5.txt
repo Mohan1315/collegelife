@@ -1,10 +1,11 @@
 Flat profile:
 
 Each sample counts as 0.01 seconds.
- no time accumulated
-
   %   cumulative   self              self     total           
- time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+100.00      0.01     0.01        1    10.00    10.00  generate_random_numbers
+  0.00      0.01     0.00        1     0.00     0.00  find_product
+  0.00      0.01     0.00        1     0.00     0.00  find_sum
 
  %         the percentage of the total running time of the
 time       program used by this function.
@@ -42,9 +43,24 @@ notice and this notice are preserved.
 		     Call graph (explanation follows)
 
 
-granularity: each sample hit covers 4 byte(s) no time propagated
+granularity: each sample hit covers 4 byte(s) for 100.00% of 0.01 seconds
 
 index % time    self  children    called     name
+                0.01    0.00       1/1           main [2]
+[1]    100.0    0.01    0.00       1         generate_random_numbers [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]    100.0    0.00    0.01                 main [2]
+                0.01    0.00       1/1           generate_random_numbers [1]
+                0.00    0.00       1/1           find_sum [5]
+                0.00    0.00       1/1           find_product [4]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[4]      0.0    0.00    0.00       1         find_product [4]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[5]      0.0    0.00    0.00       1         find_sum [5]
+-----------------------------------------------
 
  This table describes the call tree of the program, and was sorted by
  the total amount of time spent in each function and its children.
@@ -136,3 +152,4 @@ notice and this notice are preserved.
 
 Index by function name
 
+   [4] find_product            [5] find_sum                [1] generate_random_numbers

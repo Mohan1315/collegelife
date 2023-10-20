@@ -1,9 +1,0 @@
-(iii) Read the following statements and choose the correct options.\\ \\
-\hspace*{10ex}Statement A : Parapet is a type of window  \\
-\hspace*{10ex}Statement B : Pile is a type of foundation
-\\ \\
-%
-\hspace*{4ex}A. Both the statements A \& B are Correct \\ \\
-\hspace*{4ex}B. Both the statements A \& B are Wrong \\ \\
-\hspace*{4ex}C. The statement A is Correct but statement B is Wrong \\ \\
-\hspace*{4ex}D. The statement B is Correct but statement A is Wrong \\ 

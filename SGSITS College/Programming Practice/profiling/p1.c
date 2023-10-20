@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 // A function to generate random numbers and store them in an array
 void generate_random_numbers(int* array, int size) {
 for (int i = 0; i< size; i++) {
 array[i] = rand() % 1000;
     }
 }
-
 // A function to find the sum of elements in an array
 int find_sum(int* array, int size) {
 int sum = 0;
