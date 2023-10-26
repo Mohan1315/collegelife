@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia');
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Pacifico",sans-serif;
+    background: linear-gradient(to bottom right,rgb(19, 19, 19),rgb(207, 155, 212));
+}
+input{
+    display:none;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+.book{
+    display:flex
+}
+#cover{
+    width:450px;
+    height:500px;
+}
+.flip-book{
+    width:450px;
+    height: 500px;
+    position: relative;
+    perspective: 1500px;
+}
+.flip{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: .5s;
+    color:#000;
+}
+p{
+    font-size: 20px;
+    line-height: 40px;
+}
+.font-effect-fire{
+    font-size: 40px;
+    transition: .3s ease;
+}
+.font-effect-fire:hover{
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 13px;
+    box-shadow: inset 20px 0 50px rgba(0,0,0.5) 0 2px 5x rgba(0,0,0.5);
+
+}
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    background-color: #000;
+}
+.next-btn{
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    cursor: pointer;
+    color: #a76f6f;
+}
+.back-btn{
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    cursor: pointer;
+    color: #171515;
+}
+#p1{
+    z-index: 3;
+}
+#p2{
+    z-index: 2;
+}
+#p3{
+    z-index: 1;
+}
+#c1:checked ~ .flip-book #p1{
+    transform: rotateY(-180deg);
+    z-index: 1;
+}
+#c2:checked ~ .flip-book #p2{
+    transform: rotateY(-180deg);
+    z-index: 2;
+}
+#c3:checked ~ .flip-book #p3{
+    transform: rotateY(-180deg);
+    z-index: 3;
+}
+.navigation{
+    /* width: 100px;
+    height: 50px;
+    margin-right: 100px;
+    border: 1px solid black;
+    text-decoration: none; */
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin-right: 100px;
+    transition: .5s;
+}
+.navigation:hover{
+    background: #fff;
+    color: #161616;
+}

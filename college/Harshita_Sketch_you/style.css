@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+body{
+  background: url(2magic.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  /* backdrop-filter: blur(5px); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 190%;
+
+  
+  /* background-repeat: repeat; */
+  /* position: relative; */
+
+  
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.logo{
+  font-size: 30px;
+  color: white;
+  user-select: none;
+}
+
+.animate-charcter
+{
+ text-transform: uppercase;
+background-image: linear-gradient(
+  97deg,
+  #e6f508 0%,
+  #00f3ff 29%,
+  #f300bd 67%,
+  #ffffff 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+display: inline-block;
+font-size: 50px;
+font-family:cursive;
+margin-left: -475px;
+}
+
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+}
+
+.navigation a{
+  position: relative;
+  color:white;
+  font-size: 20px;
+  font-family: lobster;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navigation a::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+
+.navigation a:hover::after{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.navigation .btnlogin-popup{
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-left: 40PX;
+  transition: .5s;
+}
+
+.readbook-popup{
+text-align: center;
+
+margin-top: 50px;
+margin-left:100px;
+width: 130px;
+height: 50px;
+background: transparent;
+border: 2px solid white;
+outline: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 20px;
+color: white;
+font-weight: 500;
+/* margin-left: 40PX; */
+transition: .5s;
+}
+
+.navigation .btnlogin-popup:hover{
+  background: #fff;
+  color: #161616;
+}
+
+.readbook-popup:hover{
+background: #fff;
+color: #161616;
+}
+.title{
+  display: flex;
+  position: absolute;
+  margin: 200px;
+  color: white;
+  text-align: center;
+  /* width: 300px; */
+  font-size:30px;    
+}
+.container{
+  display: inline-block;
+  font-family: lobster;
+  text-align: center;
+  font-size: 24px;
+  margin-left: 348px;
+}
+
+.typed {
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  margin-left: 5px;
+  width: 100%;
+  animation: typing 5s steps(14) alternate infinite;
+  animation-duration: 5s;
+  animation-timing-function: steps(100, end);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
