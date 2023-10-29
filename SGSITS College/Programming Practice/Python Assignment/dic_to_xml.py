@@ -1,15 +1,13 @@
 import xml.etree.ElementTree as ET
 
-# Function to convert a dictionary to an XML element
 def dict_to_xml(dictionary, root_name):
     root = ET.Element(root_name)
     for key, value in dictionary.items():
         if isinstance(value, dict):
-            # Recursively convert nested dictionaries
             child = dict_to_xml(value, key)
             root.append(child)
         else:
-            # Create an element for non-dictionary values
+        
             child = ET.Element(key)
             child.text = str(value)
             root.append(child)
@@ -18,9 +16,11 @@ def dict_to_xml(dictionary, root_name):
 # Example dictionary
 data = {
     "person": {
-        "name": "John",
-        "age": 30,
-        "city": "New York"
+        "name": "Mohan",
+        "age": 20,
+        "city": "Guna",
+        "State": "M.p"
+
     }
 }
 
