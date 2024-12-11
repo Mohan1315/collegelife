@@ -14,7 +14,8 @@ int main(){
                 char c = s[j-1];
                 s[j-1]=s[j];
                 s[j]=c;
-            }
+                j++;
+            }   
         }
     }
     cout<<s;
